@@ -17,14 +17,14 @@ func NewAnalyticsRepository(db *gorm.DB) *AnalyticsRepository {
 }
 
 func (r *AnalyticsRepository) ActiveSmithEmployees(ctx context.Context) ([]model.EmployeeName, error) {
-	var results []model.EmployeeName
+	results := make([]model.EmployeeName, 0)
 	err := r.DB.WithContext(ctx).Raw(`
-		SELECT first_name, last_name
-		FROM employees
-		WHERE termination_date IS NULL
-		  AND last_name ILIKE 'Smith%'
-		ORDER BY last_name, first_name
-	`).Scan(&results).Error
+        SELECT first_name, last_name
+        FROM employees
+        WHERE termination_date IS NULL
+          AND last_name ILIKE 'Smith%'
+        ORDER BY last_name, first_name
+    `).Scan(&results).Error
 	return results, err
 }
 

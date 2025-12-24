@@ -5,7 +5,7 @@
     "last_name": "Nguyen",
     "hire_year": 2015,
     "base_salary": 60000,
-    "salary_2016": 0,
+    "salary_2016": 69000,
     "review_count": 0
   },
   {
@@ -14,7 +14,7 @@
     "last_name": "Soley",
     "hire_year": 2012,
     "base_salary": 30000,
-    "salary_2016": 0,
+    "salary_2016": 52470.19,
     "review_count": 0
   },
   {
@@ -23,7 +23,7 @@
     "last_name": "Jarrod",
     "hire_year": 2010,
     "base_salary": 20000,
-    "salary_2016": 0,
+    "salary_2016": 46261.22,
     "review_count": 1
   },
   {
@@ -32,7 +32,7 @@
     "last_name": "Widjaja",
     "hire_year": 2013,
     "base_salary": 20000,
-    "salary_2016": 0,
+    "salary_2016": 30417.5,
     "review_count": 0
   },
   {
@@ -41,7 +41,7 @@
     "last_name": "Smalls",
     "hire_year": 2013,
     "base_salary": 20000,
-    "salary_2016": 0,
+    "salary_2016": 30417.5,
     "review_count": 0
   },
   {
@@ -50,7 +50,7 @@
     "last_name": "Smith",
     "hire_year": 2009,
     "base_salary": 10000,
-    "salary_2016": 0,
+    "salary_2016": 26600.2,
     "review_count": 3
   }
 ]

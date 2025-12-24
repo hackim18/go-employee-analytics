@@ -18,13 +18,13 @@ type HireDateDiff struct {
 }
 
 type SalaryProjection struct {
-	ID          int     `json:"id"`
-	FirstName   string  `json:"first_name"`
-	LastName    string  `json:"last_name"`
-	HireYear    int     `json:"hire_year"`
-	BaseSalary  int     `json:"base_salary"`
-	Salary2016  float64 `json:"salary_2016"`
-	ReviewCount int     `json:"review_count"`
+	ID          int     `json:"id" gorm:"column:id"`
+	FirstName   string  `json:"first_name" gorm:"column:first_name"`
+	LastName    string  `json:"last_name" gorm:"column:last_name"`
+	HireYear    int     `json:"hire_year" gorm:"column:hire_year"`
+	BaseSalary  int     `json:"base_salary" gorm:"column:base_salary"`
+	Salary2016  float64 `json:"salary_2016" gorm:"column:salary_2016"`
+	ReviewCount int     `json:"review_count" gorm:"column:review_count"`
 }
 
 type FileResult struct {
