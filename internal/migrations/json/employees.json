@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "hire_date": "2009-06-20T00:00:00Z",
+    "termination_date": "2016-01-01T00:00:00Z",
+    "salary": 10000
+  },
+  {
+    "id": 2,
+    "first_name": "Joe",
+    "last_name": "Jarrod",
+    "hire_date": "2010-02-12T00:00:00Z",
+    "termination_date": null,
+    "salary": 20000
+  },
+  {
+    "id": 3,
+    "first_name": "Nancy",
+    "last_name": "Soley",
+    "hire_date": "2012-03-14T00:00:00Z",
+    "termination_date": null,
+    "salary": 30000
+  },
+  {
+    "id": 4,
+    "first_name": "Keith",
+    "last_name": "Widjaja",
+    "hire_date": "2013-09-10T00:00:00Z",
+    "termination_date": "2014-01-01T00:00:00Z",
+    "salary": 20000
+  },
+  {
+    "id": 5,
+    "first_name": "Kelly",
+    "last_name": "Smalls",
+    "hire_date": "2013-09-10T00:00:00Z",
+    "termination_date": null,
+    "salary": 20000
+  },
+  {
+    "id": 6,
+    "first_name": "Frank",
+    "last_name": "Nguyen",
+    "hire_date": "2015-04-10T00:00:00Z",
+    "termination_date": "2015-05-01T00:00:00Z",
+    "salary": 60000
+  }
+]

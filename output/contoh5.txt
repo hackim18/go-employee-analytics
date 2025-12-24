@@ -1,0 +1,56 @@
+[
+  {
+    "id": 6,
+    "first_name": "Frank",
+    "last_name": "Nguyen",
+    "hire_year": 2015,
+    "base_salary": 60000,
+    "salary_2016": 0,
+    "review_count": 0
+  },
+  {
+    "id": 3,
+    "first_name": "Nancy",
+    "last_name": "Soley",
+    "hire_year": 2012,
+    "base_salary": 30000,
+    "salary_2016": 0,
+    "review_count": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Joe",
+    "last_name": "Jarrod",
+    "hire_year": 2010,
+    "base_salary": 20000,
+    "salary_2016": 0,
+    "review_count": 1
+  },
+  {
+    "id": 4,
+    "first_name": "Keith",
+    "last_name": "Widjaja",
+    "hire_year": 2013,
+    "base_salary": 20000,
+    "salary_2016": 0,
+    "review_count": 0
+  },
+  {
+    "id": 5,
+    "first_name": "Kelly",
+    "last_name": "Smalls",
+    "hire_year": 2013,
+    "base_salary": 20000,
+    "salary_2016": 0,
+    "review_count": 0
+  },
+  {
+    "id": 1,
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "hire_year": 2009,
+    "base_salary": 10000,
+    "salary_2016": 0,
+    "review_count": 3
+  }
+]

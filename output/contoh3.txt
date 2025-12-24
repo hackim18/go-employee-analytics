@@ -1,0 +1,22 @@
+[
+  {
+    "first_name": "Nancy",
+    "last_name": "Soley",
+    "hire_date": "2012-03-14"
+  },
+  {
+    "first_name": "Kelly",
+    "last_name": "Smalls",
+    "hire_date": "2013-09-10"
+  },
+  {
+    "first_name": "Keith",
+    "last_name": "Widjaja",
+    "hire_date": "2013-09-10"
+  },
+  {
+    "first_name": "Frank",
+    "last_name": "Nguyen",
+    "hire_date": "2015-04-10"
+  }
+]

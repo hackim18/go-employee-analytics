@@ -1,0 +1,5 @@
+{
+  "earliest_hire_date": "2010-02-12",
+  "latest_hire_date": "2013-09-10",
+  "difference_days": 1306
+}
