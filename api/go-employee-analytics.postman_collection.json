@@ -1,0 +1,898 @@
+{
+	"info": {
+		"_postman_id": "1266bdd8-45a5-4423-bb6d-6732a6eb0826",
+		"name": "go-employee-analytics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33199697",
+		"_collection_link": "https://a44444-7251.postman.co/workspace/My-Project~1d89b93d-f4f7-4044-a9d0-52ac4c64f7df/collection/33199697-1266bdd8-45a5-4423-bb6d-6732a6eb0826?action=share&source=collection_link&creator=33199697"
+	},
+	"item": [
+		{
+			"name": "Health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/health",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/health",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"health"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 04:26:46 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "61"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics health success\",\n    \"data\": {\n        \"status\": \"ok\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Q2 - Active Smith Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:26:18 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q2 success\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Q3 - Employees Without Reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q3",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q3",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:27:45 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "319"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q3 success\",\n    \"data\": [\n        {\n            \"first_name\": \"Nancy\",\n            \"last_name\": \"Soley\",\n            \"hire_date\": \"2012-03-14\"\n        },\n        {\n            \"first_name\": \"Kelly\",\n            \"last_name\": \"Smalls\",\n            \"hire_date\": \"2013-09-10\"\n        },\n        {\n            \"first_name\": \"Keith\",\n            \"last_name\": \"Widjaja\",\n            \"hire_date\": \"2013-09-10\"\n        },\n        {\n            \"first_name\": \"Frank\",\n            \"last_name\": \"Nguyen\",\n            \"hire_date\": \"2015-04-10\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q4 - Hire Date Difference",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q4",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q4",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:27:55 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "132"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q4 success\",\n    \"data\": {\n        \"earliest_hire_date\": \"2010-02-12\",\n        \"latest_hire_date\": \"2013-09-10\",\n        \"difference_days\": 1306\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Q5 - Salary Projections",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q5",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q5",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:51:30 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "800"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q5 success\",\n    \"data\": [\n        {\n            \"id\": 6,\n            \"first_name\": \"Frank\",\n            \"last_name\": \"Nguyen\",\n            \"hire_year\": 2015,\n            \"base_salary\": 60000,\n            \"salary_2016\": 69000,\n            \"review_count\": 0\n        },\n        {\n            \"id\": 3,\n            \"first_name\": \"Nancy\",\n            \"last_name\": \"Soley\",\n            \"hire_year\": 2012,\n            \"base_salary\": 30000,\n            \"salary_2016\": 52470.19,\n            \"review_count\": 0\n        },\n        {\n            \"id\": 2,\n            \"first_name\": \"Joe\",\n            \"last_name\": \"Jarrod\",\n            \"hire_year\": 2010,\n            \"base_salary\": 20000,\n            \"salary_2016\": 46261.22,\n            \"review_count\": 1\n        },\n        {\n            \"id\": 4,\n            \"first_name\": \"Keith\",\n            \"last_name\": \"Widjaja\",\n            \"hire_year\": 2013,\n            \"base_salary\": 20000,\n            \"salary_2016\": 30417.5,\n            \"review_count\": 0\n        },\n        {\n            \"id\": 5,\n            \"first_name\": \"Kelly\",\n            \"last_name\": \"Smalls\",\n            \"hire_year\": 2013,\n            \"base_salary\": 20000,\n            \"salary_2016\": 30417.5,\n            \"review_count\": 0\n        },\n        {\n            \"id\": 1,\n            \"first_name\": \"Bob\",\n            \"last_name\": \"Smith\",\n            \"hire_year\": 2009,\n            \"base_salary\": 10000,\n            \"salary_2016\": 26600.2,\n            \"review_count\": 3\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q6 - Save Output Files",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q6/save",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q6",
+						"save"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q6/save",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q6",
+								"save"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:28:10 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "256"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q6 save success\",\n    \"data\": [\n        {\n            \"name\": \"contoh2.txt\",\n            \"path\": \"output\\\\contoh2.txt\"\n        },\n        {\n            \"name\": \"contoh3.txt\",\n            \"path\": \"output\\\\contoh3.txt\"\n        },\n        {\n            \"name\": \"contoh4.txt\",\n            \"path\": \"output\\\\contoh4.txt\"\n        },\n        {\n            \"name\": \"contoh5.txt\",\n            \"path\": \"output\\\\contoh5.txt\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q7 - Read Output File",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q7/file?name=contoh3.txt",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q7",
+						"file"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "contoh3.txt"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q7/file?name=contoh3.txt",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q7",
+								"file"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "contoh3.txt"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:28:34 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q7 read success\",\n    \"data\": [\n        {\n            \"first_name\": \"Nancy\",\n            \"last_name\": \"Soley\",\n            \"hire_date\": \"2012-03-14\"\n        },\n        {\n            \"first_name\": \"Kelly\",\n            \"last_name\": \"Smalls\",\n            \"hire_date\": \"2013-09-10\"\n        },\n        {\n            \"first_name\": \"Keith\",\n            \"last_name\": \"Widjaja\",\n            \"hire_date\": \"2013-09-10\"\n        },\n        {\n            \"first_name\": \"Frank\",\n            \"last_name\": \"Nguyen\",\n            \"hire_date\": \"2015-04-10\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q8 - City Lookup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q8?city=Bogor",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q8"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bogor"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q8?city=Bogor",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q8"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Bogor"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:28:42 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "109"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q8 success\",\n    \"data\": {\n        \"city\": \"Bogor\",\n        \"exists\": false,\n        \"suggestions\": [\n            \"Bandung\",\n            \"Makasar\"\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Q9a - Sorted Unique Numbers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q9/sorted-unique",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q9",
+						"sorted-unique"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q9/sorted-unique",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q9",
+								"sorted-unique"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:29:33 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "71"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q9 sorted unique success\",\n    \"data\": [\n        1,\n        2,\n        3,\n        4,\n        6,\n        8,\n        9\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q9b - Duplicate Counts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q9/duplicates",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q9",
+						"duplicates"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q9/duplicates",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q9",
+								"duplicates"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:29:47 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "208"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q9 duplicates success\",\n    \"data\": [\n        {\n            \"value\": 1,\n            \"count\": 2\n        },\n        {\n            \"value\": 2,\n            \"count\": 2\n        },\n        {\n            \"value\": 3,\n            \"count\": 3\n        },\n        {\n            \"value\": 4,\n            \"count\": 2\n        },\n        {\n            \"value\": 6,\n            \"count\": 3\n        },\n        {\n            \"value\": 8,\n            \"count\": 3\n        },\n        {\n            \"value\": 9,\n            \"count\": 1\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q9c - Remove Numbers",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"remove\": [\r\n        9,\r\n        1,\r\n        6,\r\n        4\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/q9/remove",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q9",
+						"remove"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "400 Bad Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"remove\": [\r\n        // 9,\r\n        // 1,\r\n        // 6,\r\n        // 4\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/q9/remove",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q9",
+								"remove"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 04:30:03 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": null,\n    \"errors\": \"Remove must contain at least 1 item\"\n}"
+				},
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"remove\": [\r\n        9,\r\n        1,\r\n        6,\r\n        4\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/q9/remove",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q9",
+								"remove"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:29:57 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "66"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q9 remove success\",\n    \"data\": [\n        8,\n        3,\n        8,\n        2,\n        3,\n        3,\n        8,\n        2\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q9d - Add With Cap",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"add\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/q9/add",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q9",
+						"add"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "400 Bad Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    // \"add\": 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/q9/add",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q9",
+								"add"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 04:30:40 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": null,\n    \"errors\": \"Add is a required field\"\n}"
+				},
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"add\": 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/q9/add",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q9",
+								"add"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:30:09 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "95"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q9 add success\",\n    \"data\": [\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10,\n        10\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Q10 - Random String Report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/q10",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"q10"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/q10",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"q10"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Dec 2025 06:30:21 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "814"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Analytics Q10 success\",\n    \"data\": {\n        \"generated\": \"lb24g48246tf8vf3lts72g6di1bo7xsv984d25zx64iyt1lf742vvq92012y9z5874n5tuul1oi7ue9s18c38k33y3zta1ze7v05\",\n        \"stats\": {\n            \"total_letters\": 50,\n            \"total_vowels\": 11,\n            \"total_numbers\": 50,\n            \"total_even_numbers\": 25\n        },\n        \"sorted_unique\": [\n            \"9\",\n            \"8\",\n            \"7\",\n            \"6\",\n            \"5\",\n            \"4\",\n            \"3\",\n            \"2\",\n            \"1\",\n            \"0\",\n            \"a\",\n            \"b\",\n            \"c\",\n            \"d\",\n            \"e\",\n            \"f\",\n            \"g\",\n            \"i\",\n            \"k\",\n            \"l\",\n            \"n\",\n            \"o\",\n            \"q\",\n            \"s\",\n            \"t\",\n            \"u\",\n            \"v\",\n            \"x\",\n            \"y\",\n            \"z\"\n        ],\n        \"sorted_with_duplicates\": [\n            \"9\",\n            \"9\",\n            \"9\",\n            \"9\",\n            \"8\",\n            \"8\",\n            \"8\",\n            \"8\",\n            \"8\",\n            \"8\",\n            \"7\",\n            \"7\",\n            \"7\",\n            \"7\",\n            \"7\",\n            \"7\",\n            \"6\",\n            \"6\",\n            \"6\",\n            \"5\",\n            \"5\",\n            \"5\",\n            \"5\",\n            \"4\",\n            \"4\",\n            \"4\",\n            \"4\",\n            \"4\",\n            \"4\",\n            \"4\",\n            \"3\",\n            \"3\",\n            \"3\",\n            \"3\",\n            \"3\",\n            \"2\",\n            \"2\",\n            \"2\",\n            \"2\",\n            \"2\",\n            \"2\",\n            \"2\",\n            \"1\",\n            \"1\",\n            \"1\",\n            \"1\",\n            \"1\",\n            \"1\",\n            \"0\",\n            \"0\",\n            \"a\",\n            \"b\",\n            \"b\",\n            \"c\",\n            \"d\",\n            \"d\",\n            \"e\",\n            \"e\",\n            \"f\",\n            \"f\",\n            \"f\",\n            \"g\",\n            \"g\",\n            \"i\",\n            \"i\",\n            \"i\",\n            \"k\",\n            \"l\",\n            \"l\",\n            \"l\",\n            \"l\",\n            \"n\",\n            \"o\",\n            \"o\",\n            \"q\",\n            \"s\",\n            \"s\",\n            \"s\",\n            \"t\",\n            \"t\",\n            \"t\",\n            \"t\",\n            \"t\",\n            \"u\",\n            \"u\",\n            \"u\",\n            \"v\",\n            \"v\",\n            \"v\",\n            \"v\",\n            \"v\",\n            \"x\",\n            \"x\",\n            \"y\",\n            \"y\",\n            \"y\",\n            \"z\",\n            \"z\",\n            \"z\",\n            \"z\"\n        ]\n    }\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080"
+		}
+	]
+}
